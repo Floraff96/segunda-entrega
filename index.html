@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTERIA</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <nav>
+        <ul class="navBar">
+            <li>
+                <a href="#">Inicio</a>
+                <a href="./pages/productos.html">Productos</a>
+                <a href="./pages/talles.html">Talles</a>
+                <a href="./pages/contacto.html">Contactos</a>
+                <a href="./pages/nosotros.html">Nosotros</a>
+            
+            </li>
+        </ul>
+
+       </nav>
+    </header>
+    <main>
+        <h1>Asteria</h1>
+        <section class="containerPortada">
+       <img src="./assets/img/imgdeportada.jpg" alt="" class="portada">
+        </section>
+       <h2>Lo mas vendido </h2>
+       <section class="carrusel">
+            <button id="prevBtn" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="productos1"> 
+                <img src="./assets/img/inicio1.jpg" alt="">
+                <h3>Anillo 1</h3>
+                <p> $12.000  </p>
+                <p> 3 cuotas sin interes de $4.000</p>
+                <button class="boton">Comprar</button>
+            </div>
+            <div class="productos2"> 
+                <img src="./assets/img/inicio2.jpg" alt="">
+                <h3>Anillo 1</h3>
+                <p> $12.000  </p>
+                <p> 3 cuotas sin interes de $4.000</p>
+                <button class="boton">Comprar</button>
+            </div> 
+            <div class="productos3">
+                <img src="./assets/img/inicio3jpg.jpg" alt="">
+                <h3>Anillo 1</h3>
+                <p> $12.000  </p>
+                <p> 3 cuotas sin interes de $4.000</p>
+                <button class="boton">Comprar</button>
+                </div>
+            <div class="productos4"> 
+                <img src="./assets/img/inicio4.jpg" alt="">
+                <h3>Anillo 1</h3>
+                <p> $12.000  </p>
+                <p> 3 cuotas sin interes de $4.000</p>
+                <button class="boton">Comprar</button>
+            </div>
+            <button id="nextBtn" onclick="moveSlide(1)">&#10095;</button>
+        </section>   
+    </main>
+    <footer>
+        <p> infoasteria@gmail.com </p>
+    </footer>
+   
+</body>
+</html>

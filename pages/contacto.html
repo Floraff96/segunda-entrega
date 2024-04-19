@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>    
+<header>
+    <nav>
+        <ul class="navBar">
+            <li> <a href="../index.html">Inicio</a>
+                <a href="./productos.html">Productos</a>
+                <a href="./talles.html">Talles</a>
+                <a href="#">Contactos</a>
+                <a href="./nosotros.html">Nosotros</a>
+            </li>
+        </ul>  
+      </nav>
+
+</header>
+<main> 
+    <h1>Asteria</h1>
+        <div class="containerFormMap">
+            <!-- Formulario de contacto -->
+            <form action="#" method="post">
+                <label for="nombre">Nombre y Apellido:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="telefono">Número de Teléfono:</label><br>
+                <input type="tel" id="telefono" name="telefono" required><br>
+                <label for="consulta">Consulta:</label><br>
+                <textarea id="consulta" name="consulta" rows="4" required></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+
+        <!-- Mapa de ubicación falso -->
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26289.148831402068!2d-58.58340472972585!3d-34.54991927028928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9f880d30623%3A0xf63bd5e2b5393d70!2sVilla%20Ballester%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1713317092733!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </div>
+</main>
+<footer>
+    <p> infoasteria@gmail.com </p>
+</footer>
+</body>
+</html>
